@@ -1,0 +1,733 @@
+.proDetails #gc_form .btn-group  .btn {
+    border-radius: 4px !important;
+    border: 0;
+    padding: 0px !important;
+    background: #fff;
+    color: #757575 !important;
+    border: 1px solid;
+    font-weight: 700 !important;
+    min-width: 50px;
+    min-height: 31px;
+    text-align: center;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+}
+.proDetails #gc_form .btn-group .btn-primary:hover, 
+.proDetails #gc_form .btn-group .btn-primary:focus,
+.proDetails #gc_form .btn-group .btn-primary:active{
+    background-color: #f5f5f5;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+}
+.proDetails #gc_form .btn-group .gc-form-selected-btn,
+.proDetails #gc_form .btn-group .gc-form-selected-btn:focus,
+.proDetails #gc_form .btn-group .gc-form-selected-btn:active {
+    border-color: rgb(240, 173, 78) !important;
+    color: #000 !important;
+    background-color: #fef8f2 !important;
+    outline: none !important;
+}
+.proDetails #gc_form .btn-group input#custom_gc_amount {
+    width: 125px;
+}
+.proDetails #gc_form .btn-group{display:block !important;}
+.ui-datepicker-next span.ui-icon.ui-icon-circle-triangle-e,
+.ui-datepicker-prev span.ui-icon.ui-icon-circle-triangle-w{
+display:none;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    right: 0 !important;
+    top: 0 !important;
+}
+a.ui-datepicker-next:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit !important;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 0 !important;
+    top: 8px;
+    position: relative;
+}
+a.ui-datepicker-prev:before {
+    content: "\f053";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit !important;
+    color: #fff;
+    font-size: 14px;
+    top: 8px;
+    position: relative;
+    left: 15px;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default, 
+.ui-button, 
+html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background-color: #e2e2e2 !important;
+    font-weight: normal;
+    color: #000000;
+}
+
+.ui-state-highlight, 
+.ui-widget-content .ui-state-highlight, 
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #848484;
+    background: #ffffff !important;
+    color: #000000;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+    background-color: transparent !important;
+    background-image: none;
+}
+.ui-datepicker .ui-datepicker-header{
+ background-color: #00aeef;
+}
+
+.fc-list-heading-alt, .fc-day-grid-event .fc-content .fc-time{
+    display: none;
+}
+#aboutus .datepicker {
+    font-size: 1.3rem !important;
+}
+#aboutus #add_new_popup .btn-con{width:100% !important;} 
+
+.product-quantities .btn-set .btn{padding: 10px 15px !important;}
+.social-share-icons .list-inline li .fa,
+.product-quantities .btn-set .btn .fa{padding-top:0 !important;}
+#gc_form textarea,#gc_form input{color:#000 !important;}
+.proDetails .panel .panel-body .social-share-icons ul{margin-left:0px !important;}
+.proDetails .panel .panel-body .social-share-icons img{width:38px;}
+
+.social-share-icons,.socialcustom{
+    display: inline-block;
+}
+/*.sitemessage{display:block !important;}*/
+
+
+.socialcustom img {max-height:80px!important;width:auto!important;}
+.socialcustom {float:left;}
+
+/* DS-5407 CSS changes Start*/
+
+#calendar .fc-scroller{overflow:hidden !important;height:auto !important;}
+
+/* DS-5407 CSS changes End*/
+
+
+.simple_security label
+{
+    width: 100% !important;
+}
+
+#show_more_calc
+{
+    width: 100%;
+    font-size: medium !important;
+    font-weight: bold!important;
+}
+
+/* Announcement banner box  */
+.announcement_container {
+    padding: 30px 0px;}
+
+.dive_widgets .container{max-width: 100%;}
+.dive_widgets #bottom1{padding:0px 5px !important;}
+.sidebar .dive_widgets .ckimage{height:auto !important;} 
+.sidebar .dive_widgets .section-head h2{font-size:22px !important;}
+.cmsInnerContent .newsletter .signup {
+    display: block;
+    margin-top: 10px;
+}
+.cmsInnerContent .newsletter .signup input[name="newsletter_name"], 
+.cmsInnerContent .newsletter .signup input[name="newsletter_email"]{padding: 5px;}
+
+.sidebar .dive_widgets #bottom1{width:100% !important;}
+.dive_widgets #bottom1 {width: 33.3%;}
+.dive_widgets #bottom1:last-child{display:none;}
+.blk_view h2{display:inline-block;}
+.simple_security .text:before{display:none;}
+.slick-dots li::after{background:none !important;}
+.loading {
+    background-color: #ffffff;
+    background-image: url(../img/loading1.gif);
+    background-size: 25px 25px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #dddd;
+}
+
+.blog-search .search-input{width: calc(100% - 40px) !important;border:3px solid #fff !important;}
+
+.ui-widget-content{
+    background: #fff !important;
+}
+.ui-menu-item p{
+    margin: 0px !important;
+}
+
+ul.product_list_widget{padding-left:0 !important;}
+.product_list_widget > li{word-break: break-word !important;}
+.ui-widget-content .ui-state-focus{font-weight:normal !important;}
+.ui-autocomplete{width:auto !important;}
+.ui-autocomplete .ui-autocomplete-row .col-lg-2{padding-left:0 !important;}
+.ui-autocomplete .ui-autocomplete-row .col-lg-2{padding-left:5px !important;padding-right:5px !important;}
+.ui-menu .ui-menu-item{padding: 3px .5em 3px .4em !important;}
+.widgetProduct .media .media-left {
+    padding-right: 15px;
+    width: 33.3%;
+}
+.widgetProduct .media .media-left{
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.creload{
+    padding-left: 5px;
+}
+.login-form .simple_security .text:before{width:auto !important;content: '' !important;}
+.top-nav .cart .product_list_widget{padding:20px 20px !important;}
+
+
+
+/* Product page CSS changes */
+#filtered_products{margin-bottom:25px;}
+#filtered_products .productBorder img{z-index: 0 !important;}
+#part_search_form .search-input{border:1px solid #e5e5e5 !important;}
+.product-page #filtered_products{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+#filtered_products .frontinfo .mainshopthumb{padding-top:6px;}
+#filtered_products .banner-container.sale{z-index: 1;}
+#filtered_products .frontinfo {height:125px !important;min-height:80px;}
+.product-rating .jq-ry-container{width:auto !important;}
+.productBorder .productMetas{top:42% !important;}
+
+ /*@media(max-width:1024px) {
+.productBorder .productMetas{left:-30px !important;}
+ }*/
+
+
+@media only screen and (max-width: 768px) {
+#storecat h2{margin-bottom:0px !important;}
+table.table.table-cart {width:100%;}
+table.table.table-cart input{padding:6px 6px !important;}
+.product-page div#filter_sf {
+    margin-top: 20px;
+    padding: 0px;
+}
+input#CustomerInfoFirstName,select#CustomerInfoCountry {
+    margin-bottom: 15px;
+}
+#CustomerInfoShippingForm .col-lg-4 select{max-width:100% !important;}
+.footer-widget .contact-info li {
+    padding: 0 0 0 0px !important;
+}
+.productBorder .productMetas{top:42% !important;}
+.productListView .pdMetas li{width:100% !important;}
+.gallery-2column .filter,.footer-widget>.container>.row>div {
+    width: 100% !important;
+}
+
+}	
+
+
+@media only screen and (max-width: 480px) {
+#storecat h2{margin-bottom:0px !important;}
+table.table.table-cart {width:100%;}
+table.table.table-cart input{padding:6px 6px !important;}
+.product-page div#filter_sf {
+    margin-top: 20px;
+    padding: 0px;
+}
+input#CustomerInfoFirstName,select#CustomerInfoCountry {
+    margin-bottom: 15px;
+}
+#CustomerInfoShippingForm .col-lg-4 select{max-width:100% !important;}
+.footer-widget .contact-info li {
+    padding: 0 0 0 25px !important;
+}
+.productBorder .productMetas{top:42% !important;}
+.productListView .pdMetas li{width:100% !important;}
+}
+/* DS-5945 CSS changes */
+
+.container {
+    max-width: 100%;
+}
+
+/* DS-6007 CSS changes */
+
+.productListView.chkProductID .more_choice_available {
+    color: #000;
+    background-color: #ccc;
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: block;
+    text-align:center;
+    margin-top: 10px;
+	margin-bottom:5px;
+    font-size: 12px;
+	line-height: normal;
+}
+
+.productBorder.chkProductID .more_choice_available {
+    color: #000;   
+    padding: 6px 5px 0px;
+    margin: 0;
+    display: block;
+    background-color: #ccc;
+    border-radius: 2px;
+    clear: both;
+    font-size: 10px;
+    line-height: normal;
+    width: 100%;
+}
+@media (max-width: 1150px) and (min-width: 1025px){
+#filtered_products .col-md-4 {
+    width: 24.33333333%;
+}
+}
+@media (max-width: 1024px) and (min-width: 992px){
+#filtered_products .col-md-4 {
+    width: 33.33333333%;
+}
+
+
+
+}
+
+/* DS-7145 CSS change start */
+
+@media only screen and (max-width: 768px) {
+	#filtered_products .col-md-4 {
+    width: 33.33333333%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	#filtered_products .col-md-4 {
+    width: 100%;
+    }
+}
+/* DS-7145 CSS change End */
+
+.product-box .col-md-2 img {
+    width: 75px !important;
+}
+img{max-width:100% !important;}
+
+/* DS-6007 CSS changes End */
+
+.container {
+    max-width: 100%;
+}
+.sitemessage{display:block !important;}
+
+/* DS-6147 CSS changes Start */
+
+#ContactSigninOtpForm .text:before{width:auto !important;content: '' !important;border:none!important;}
+
+form#tokenform input {
+    text-indent: 12px;
+}
+form#ContactSigninOtpForm .form-control{padding-left: 12px !important;}
+.terms_conditions{font-size:14px;font-weight:600;margin-bottom:10px;}
+.terms_conditions .checkbox{display:inline-block;margin-bottom:0px !important;}
+input#terms_conditions {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    margin-right: 5px;
+    top: 1px;
+}
+a.terms_and_conditions_url {
+    color:#0075ff !important;
+	/*margin-left: 20px;*/
+}
+span.terms_conditions_text {
+    color: #000 !important;
+}
+.terms_conditions.error{white-space: normal !important}
+a.terms_and_conditions_url{margin-left: 0px !important;}
+.terms_conditions{float:right !important;}
+
+
+/* DS-6147 CSS changes End */
+
+
+/* DS-6203 CSS changes Start */
+
+.checkout .product-box .col-md-2 img {
+    width: 75px !important;
+}
+.checkout p.lowercase {
+    margin-top: 0px !important;
+}
+img{max-width:100% !important;}
+
+/* DS-6203 CSS changes End */
+
+
+/* DS-5932 CSS changes Start */
+@media only screen and (max-width: 768px) {
+.product-page .col-sm-4,.product-page .col-sm-8{width:100%;}
+.productBorder .productMetas{left:30px !important;}
+.productDisplayType .col-sm-9 {
+    width: 100% !important;
+}
+.productViewToggle{margin:15px 0px !important;}
+
+/* DS-5904 CSS changes Start */
+.product-cat-widget-select select{
+	padding: 5px 10px;
+    max-width: 100% !important;
+    margin-bottom: 15px;
+    border: 1px solid;
+    margin-top: 10px;
+	background: transparent;
+}
+.product-cat-widget-select select option {
+    color: #000 !important;
+}
+/* DS-5904 CSS changes Start */
+
+}
+/* DS-5932 CSS changes End */
+.product-box.list p{
+    margin: 0px !important;
+}
+/* DS-6305 CSS changes Start */
+.courses #add_new_popup{
+	width: 80% !important;
+	left:0px !important;
+	margin: 0 auto !important;
+}
+.courses #add_new_popup .blk-course-reg .tbl-con{border: none !important;}
+.courses #add_new_popup .blk-course-reg .tbl-con .mfp-close{top: 0px !important;}
+.courses #add_new_popup .blk-course-reg  td#dftPrice{text-align:right !important;}
+/* DS-6305 CSS changes End */
+
+/* DS-6335 CSS changes Start */
+#lightbox .lb-outerContainer,
+#lightbox .lb-outerContainer .lb-container .lb-image
+{height:auto !important;}
+#lightbox{top:30% !important;}
+/* DS-6335 CSS changes End */
+
+/* DS-5795 CSS changes Start */
+#signin_otp_modal .login-page .login_form h3{margin-top: -15px !important;}
+#signin_otp_modal .login-page .login-form .input>label{width:100%;}
+/* DS-5795 CSS changes End */
+
+/* Common footer newsletter CSS changes Start */
+.footer-widget .newsletter input[type="submit"] {
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+.footer-widget .newsletter input[name="newsletter_name"], 
+.footer-widget .newsletter input[name="newsletter_email"] {
+    width: 100% !important;
+    text-indent: 5px;
+    padding: 5px;
+}
+.footer-widget .newsletter input[name="newsletter_email"] {
+	margin:5px 0px;
+}
+/* Common footer newsletter CSS changes End */
+
+/* Common DS-5904 CSS changes start */
+@media only screen and (min-width: 769px) {
+.product-cat-widget-select .mobile-select-option{display:none;}
+}
+@media only screen and (max-width: 768px) {
+.product-cat-widget-select li.child-select-list:before {
+    content: "-";
+    padding-right: 5px;
+	color: #000;
+    font-weight: 600;
+}
+.product-cat-widget-select li.child-select-list {
+    margin-left: 15px;
+}
+.product-cat-widget-select .mobile-select-option{
+	width: 100%;
+    text-align: left;
+    border: 1px solid;
+}
+.product-cat-widget-select .mobile-select-option .caret {
+    margin-left: 0;
+    float: right;
+    margin-top: 8px;
+}
+.product-cat-widget-select .mobile-select-option{display:block !important;}
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret{
+	position: relative !important;
+	top: 0px !important;
+}
+ul.product-categories.desktop-product-cat-dropdown-menu.dropdown-menu {
+    max-height: 310px;
+    height: auto;
+    overflow-y: auto;
+	background-color: #fff !important;
+    width: 100%;
+}
+.product-categories li a{
+	color: #000 !important;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-cat-widget-dropdown{
+	width: 60%;
+    float: left;
+}
+.product-cat-widget-reset .btn-ash-border{padding: 9px 29px !important;}
+.con-filters .flex-wrap select#selectSortType{width: 100% !important;} 
+
+}
+/**DS-6224**/
+/* DS-5997 Changes - Common Use*/
+#package_replace .login-page,#package_replace .login_form{ max-width: 85% !important }
+.pkg_variance { margin-top:-15px; }
+/* DS-5997 Changes - Common Use*/
+select#charity{
+	width:100% !important;
+	max-width:100% !important;
+}
+
+/* DS-5997 - common CSS changes*/
+
+.modal-body .login-page .login_form .pkg_variance table tr td h3{margin: 25px 0 20px 0 !important;}
+/* .modal-body .login-page>.login_form>.pkg_variance>.row{
+	background-color: #dedede !important;
+	margin-bottom: 15px !important;
+} */
+
+#package_replace .modal-body .login-page{margin-top: 6%;}
+.modal-body .login-page .login_form .pkg_variance table tr td a.f_right.close_icon_popup{margin-top: 0px !important;}
+.modal-body .login-page .login_form .pkg_variance .row .col-lg-4,
+.modal-body .login-page .login_form .pkg_variance .row .col-lg-8{
+	color: #000;
+    margin-bottom: 5px !important;
+}
+.modal-body .login-page .login_form .pkg_variance .btn-add-cart{
+	margin-top: -20px !important;
+	display: inline-block;
+    float: right;
+	padding: 6px 10px;
+	text-transform: capitalize !important;
+	width: auto !important;
+}
+#package_replace .modal-body .login-page .login_form {
+    max-height: 500px;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.products .product_meta .table>tbody>tr>td,
+.products .product_meta .table>tbody>tr>th{border-top: none !important;}
+/* DS-5997 - common CSS changes end*/
+
+/* charity CSS changes start*/
+#DirectPayAuthForm .charity{margin-left: 0px !important;}
+/* charity CSS changes end*/
+
+
+/* DS-6489 CSS changes start*/
+@media only screen and (min-width: 769px) {
+.navbar-nav > li.open ul.sub-menu li.open ul{
+margin-left: calc(100% - 0px) !important;    
+padding-left: 10px !important;
+width:auto !important;
+}
+aside.widget.mobile-v-featured-products{display:none;}
+aside.widget.desktop-v-featured-products{display:block;}
+}
+
+@media only screen and (max-width: 768px) {
+.navbar-nav > li.open ul.sub-menu li.open ul{
+	position: unset;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    box-shadow: none;
+	padding-left: 10px !important;
+}
+.product-groups .product-categories-productgroup{display:none;}
+aside.price-filter-widget.widget {
+    display: none;
+}
+aside.widget.mobile-v-featured-products{display:block;clear:both;}
+aside.widget.desktop-v-featured_products,
+aside.widget.desktop-v-featured_products{display:none;}
+.productDisplayType .col-xs-12.col-sm-4.col-md-3:first-child{width:100%;margin-top: 10px;}
+.row.mobile-featured-products .col-xs-12.col-sm-4.col-md-3:first-child{margin-top: 0px; margin-bottom:10px}
+.product-page div#filter_sf,
+.row.proView .products-product-categories,
+.row.proView .all-products{width:100%;}
+aside.product-cat-widget.widget.product-cat-widget-selecth3 .widget-title{margin-top:10px !important;}
+}
+
+/* DS-6489 CSS changes end*/
+
+/* DS-6465 CSS changes start */
+#travelPopup .tbl-options thead tr th,
+#travelPopup .section-container.option-container.wrap #formAddOption .table>thead>tr>th{
+	border:none;
+	padding-bottom: 5px !important;
+}
+#travelPopup #traveller_option,
+#travelPopup #traveller_option #rowBaseOptions,
+table#rowAddonOptions,
+#travelPopup .section-container.option-container.wrap{border:none;}
+#travelPopup button.btn-add-cart.save_as{
+	padding: 7px 5px 10px;
+}
+#travelPopup .save_as .fa-shopping-cart{margin-right:5px;}
+.charters #add_new_popup,.trips #add_new_popup{left: calc(20% - 175px);width:1140px;}
+#traveller_option .select-base{padding:3px 0px !important;width: 215px !important;}
+
+#rowBaseOptions tr>td input.elm{width: 150px !important;margin-right: 15px;}
+table#rowAddonOptions {
+    margin-top: 10px;
+
+}
+#rowAddonOptions tr td .elm.input-qty{width:150px;margin-left: 26px;margin-bottom: 10px;}
+td.visblehidden {
+    visibility: hidden;
+}
+#rowAddonOptions label.elm.input-price{ 
+    margin-left: 20px !important;
+    width: 84px !important;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 4px;
+}
+.table-custom-stripeds{
+border-left: 15px solid #eee;
+border-bottom: 2px solid #ccc;
+}
+.table-custom-stripeds .btn-con .btn-travel{
+    color: #fff !important;
+    background-color: #09b6f6 !important;
+    border-color: #09b6f6 !important;
+    border-radius: 4px !important;
+    font-weight: 400;
+}
+.btn-remove-base{
+    margin-left:-10px;
+    padding: 6px 10px !important;
+}
+#rowBaseOptions label {
+    width: 85px;
+    text-align: right;
+    padding-right: 15px;
+}
+#rowBaseOptions tr th:nth-child(6){
+    display: block;
+    margin-left: 0px;
+    width: 85px;
+}
+
+/* width */
+#add_new_popup .section-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#add_new_popup .section-container::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+#add_new_popup .section-container::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+#add_new_popup .section-container::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.dfdob-second-table input{margin-right: -20px !important;}
+.totalAmt tr td:nth-child(6){float:right;}
+.totalAmt tr td:nth-child(7){width:65px;} 
+td.totalAmt-tdhidden {
+    width: 200px;
+}
+@media screen and (max-width: 1024px) {
+    select.base-options {
+        margin-right: 15px !important;
+    }
+    #rowAddonOptions label.elm.input-price,
+    #rowAddonOptions tr td .elm.input-qty{
+        margin-left: 15px !important;
+    }
+.dfdob-first-table input,
+.dfdob-second-table input {
+    margin-right: 15px !important;
+}
+#tvlTotal{margin-left: 95%;}
+
+.totalAmt tr td:nth-child(5){text-align:left;}
+.charters  #add_new_popup #travelPopup .table>tbody>tr>td
+.trips #add_new_popup #travelPopup .table>tbody>tr>td {
+    border: 0px !important;
+    min-width: 150px !important;
+    max-width: 200px !important;
+}
+/*.productBorder .productMetas{left: 30px;}*/
+
+}
+
+/* DS-6465 CSS changes end */
+/* DS-7058 css changes start */
+
+.datepicker .datepicker-days {
+    display: block !important;
+}
+
+/* DS-7058 css changes end */
+
+/* DS-7147 css changes start */
+
+.row.gallery-filterable.fullwidth{
+	overflow: visible !important;
+}
+
+/* DS-7147 css changes end */
+
+.productBorder .productBorderHover{opacity: 0 !important;}
+
+
+/* DS-7228 css changes start */
+
+.productBorder.chkProductID:hover .productBorderHover{opacity: 1 !important;}
+.productBorder .price del .amount {color: #222 !important;}
+
+/* DS-7228 css changes end */
+@media screen and (max-width: 767px) {
+#home .courses {
+    margin-top: 15px;
+}
+.courses {
+    margin-top: 0px !important;
+}
+}
+.close_popup
+{
+    margin-top: -20px;margin-left: -14px;
+}

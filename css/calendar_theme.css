@@ -1,0 +1,1257 @@
+main.content > .container {
+	background-color: #fff;
+	padding: 15px 15px 0px;
+	box-shadow: 0 0 6px -3px rgba(0, 0, 0, 0.77);
+}
+
+section::after {
+	clear: both;
+	display: block;
+	content: "";	
+}
+/**Bootstrap**/
+.pd-bt-20 {
+	padding-bottom: 20px;
+}
+
+.datepicker {
+	font-size: 0.7rem !important;
+}
+
+.wrap::after, .section::after, .grid-1::after, .reg-container::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.error:not(.card-number):not(select):not(.form-control):not(#rating-error) {
+    background-image: url("../img/error.png") !important;
+    background-position: 95% 50% !important;
+    background-size: 15px 15px !important;
+    background-repeat: no-repeat;
+}
+
+.page-header {
+	padding-top: 0px;
+	margin-top:0px;
+}
+
+.btn {
+	font-size: 12px !important;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.title4 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.caption2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+#content {
+	padding: 0 0 20px;
+}
+
+.bd {
+	font-weight: bold;
+}
+
+.aln-center {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+.dialog {
+	background: #eee;
+	position: fixed;
+	top: 50px;
+	left: calc(25% - 150px);
+	padding: 10px;
+	border: 1px solid #c1c1c1;
+	display: none;
+	width: 70%;
+	bottom: auto;
+}
+
+.mask {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    display: none;
+}
+
+.popover-content .evt{
+	padding: 5px 0;
+}
+
+.popover-content .btn{
+	height: unset;
+	margin: 10px auto;
+	width: 100%;
+}
+
+select.error {
+	border: 1px solid red;
+}
+
+.section {
+	margin-bottom: 20px;
+	background: transparent;
+}
+
+.popover-title{
+	text-align: center;
+}
+
+
+#flashMessage {
+    background: #4b91e6 none repeat scroll 0 0;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+
+.divider {
+    background: rgba(193, 193, 193, 0.49) none repeat scroll 0 0;
+    height: 1px;
+    margin: 25px 0;
+    width: 100%;
+}
+
+table.table-custom-striped tr:nth-child(2n) {
+	background-color: #e1e1e1;
+}
+
+.tbl-reg thead tr th, .tbl-options thead tr th{
+	font-weight: 500;
+}
+
+/**
+ * Calendar 
+ */
+.fc-event{
+	border: 1px solid #cdd3da !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	cursor:pointer;
+}
+
+.fc-title {
+	white-space: pre-line !important;	
+}
+
+.fc-event:hover {
+	background-color: #2d6f99 !important;
+	color: #fff !important;
+}
+
+.evt-time {
+	
+}
+
+.fc-event:hover .evt-time, .fc-event:hover .evt-warning {
+	color: #fff;
+}
+
+.evt-warning {
+	color: #e67e22;
+}
+
+.fc-today{
+	background-color: #e0f2f1 !important;
+}
+
+.fc-toolbar h2{
+	margin-top: 10px !important;
+	font-size: 12px;
+}
+
+#calendar .fc-center h2{
+	margin-top: 10px !important;
+	font-size: 18px;
+}
+
+.fc-state-default{
+	background: #26a69a !important;
+	color: #fff !important;
+}
+
+.btn.btn-bg {
+	font-size: 1.2em !important;
+}
+
+.btn.btn-active {
+    background-color: #26a69a;
+    background-image: unset;
+    color: #ffffff;
+    font-weight: 200;
+    text-shadow: unset;
+}
+.btn.btn-inactive {
+    background-image: unset;
+    color: #aba7a7;
+}
+
+
+/**
+ * Page Header
+ */
+.page-header .blk-1, .page-header .blk-2 {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+.page-header > .wrap > .grid-1 >.blk-2 {
+	float: right;
+}
+
+.page-header span {
+	display: block;
+}
+
+/**
+ * Register Page
+ */
+.blk{
+	float: left;
+	padding: 10px 0;
+	width: 50%;
+}
+
+.form-grp {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #c1c1c1;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.26);
+}
+
+.form-registration {
+	width: 85%;
+}
+
+.input-grp{
+	padding: 10px 0;
+}
+
+.input-grp::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.input-grp > input,textarea{
+	width: 250px;
+	margin-left: 20px;
+	float: right;
+	resize: none;
+}
+
+.blkRight > h3{
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.label-grp{
+	padding-bottom: 15px;
+}
+
+.input-grp > span {
+    color: #339ab7;
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.linebreak {
+    border-radius: 5px;
+    border-top: 1px solid rgba(193, 193, 193, 0.32);
+    box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.21);
+    height: 1px;
+    margin: 5px 0;
+}
+
+.blkRight h4 {
+	padding: 0;
+	margin: 0;
+}
+
+table th,td {
+	padding: 2px !important;
+	vertical-align:middle !important;
+}
+
+.input-grp-name > input {
+	width: calc(50% - 2px);
+	height: 35px;
+}
+
+.btn-norm {
+    margin: 20px auto 0;
+    padding: 10px;
+    display: block;
+}
+
+.popover-content .btn-default {
+    display: block;
+    width: 80px;
+}
+
+/**
+ * Forms
+ */
+form .input {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+form .input > input,form .input > select{
+	width: 65%;
+	height: 35px;
+	float: right;
+}
+
+form .input > label {
+	margin-top: 5px; 
+	width: auto;
+}
+
+.submit input[type='submit'] {
+	margin: 10px auto;
+	display: block;
+	padding: 10px;
+}
+
+.error-message {
+    color: red;
+    display: block;
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+
+/**
+ * Travel Options
+ */
+.tblOptions {
+	margin: 25px 0; 
+}
+
+.tblOptions th .option {
+	width: 25px;
+}
+
+.infoPrice {
+	font-size: 24px;
+	text-align: right;
+}
+
+.elmBase {
+	float: left;
+	padding: 0 10px;
+	display: block;
+}
+
+select.elmBase {
+	width: 350px;
+}
+
+.elmBase > input {
+	width: 120px;
+	height: 22px;
+}
+
+.tblOptions .total td {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blk-credit {
+	margin: 0 auto;
+	width: 35%;
+	padding: 35px;
+}
+
+.blk-credit h4 {
+	text-align: center;
+}
+
+/**
+ * Credit Card Form
+ */
+.cc-container {
+	width: 300px;
+	margin: 30px 40px;
+	text-align: center;
+	color: #696969;
+}
+
+.cc-container .input {
+	display: block;
+	height: 35px;
+	margin: 0 auto 5px;
+	width: 100%;
+	padding: 2px !important;
+}
+
+.cc-container h4 {
+	padding-bottom: 20px;
+	font-size: 20px;
+	color: #4C5AEF;
+}
+
+.cc-container label {
+    font-weight: normal;
+}
+
+.cc-container h5 {
+	text-align: left;
+	font-size: 17px;
+	font-family: Helvetica;
+}
+
+.cc-container input {
+	border: 1px solid #c2c2c2;
+}
+
+.cc-container .col-1 {
+	margin: 20px 0;
+}
+
+.input.card-number.valid {
+	border: 1px solid green;
+}
+
+.input.card-number {
+	background-image: url("../img/cc.png") !important;
+    background-position: 2px -121px, 260px -121px;
+    background-repeat: no-repeat;
+    background-size: 120px 361px, 120px 361px;
+    text-indent: 60px;
+}
+
+.card-number.visa {
+    background-position: 2px -163px, 260px -61px;
+}
+.card-number.visa_electron {
+    background-position: 2px -205px, 260px -61px;
+}
+.card-number.mastercard {
+    background-position: 2px -247px, 260px -61px;
+}
+.card-number.maestro {
+    background-position: 2px -289px, 260px -61px;
+}
+.card-number.discover {
+    background-position: 2px -331px, 260px -61px;
+}
+.card-number.valid.visa {
+    background-position: 2px -163px, 260px -87px;
+}
+.card-number.valid.visa_electron {
+    background-position: 2px -205px, 260px -87px;
+}
+.card-number.valid.mastercard {
+    background-position: 2px -247px, 260px -87px;
+}
+.card-number.valid.maestro {
+    background-position: 2px -289px, 260px -87px;
+}
+.card-number.valid.discover {
+    background-position: 2px -331px, 260px -87px;
+}
+
+.input.card-expiry {
+	float: left;
+	width: 90px;
+}
+
+.input.card-code {
+	width: 90px;
+	float: right;
+}
+
+.cc-container .btn-danger {
+	float: left;
+}
+
+.cc-container .btn-success {
+	float: right;
+}
+
+#CreditCardAuthForm input {
+	font-size: 13px;
+}
+
+.pnl-credit {
+	display: none;
+}
+
+
+input.error {
+	border: 1px solid red !important;
+}
+
+label.error:not(.form-control .error) {
+	display: none !important;
+}
+
+.base-opt-con {
+	padding: 20px;
+}
+
+.btn-travel {
+	margin: 5px;
+}
+
+.tbl-info {
+    font-size: 13px;
+}
+
+.label-grp.description {
+    background: #ddd none repeat scroll 0 0;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.tbl-event-dates.tbl-info th:nth-child(4) {
+	width: 55%;
+}
+
+.tbl-info.tbl-event-dates {
+	width: calc(100% - 2px);
+}
+
+caption {
+	font-weight: bold;	
+}
+
+
+.dialog .input::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.dialog .input {
+	padding: 10px;
+}
+
+.dialog-add-user {
+	width: 400px;
+	padding: 20px;
+}
+
+.tbl-reg {
+	width: 100%;
+	margin: 0;
+	color:black;
+}
+
+.tbl-reg.tbl-info th:nth-child(1) {
+	width: 5%;
+}
+
+.tbl-reg.tbl-info th:nth-child(3) {
+	width: 35%;
+}
+
+.tbl-reg.tbl-info th:nth-child(4) { 
+	width: 20%;
+}
+
+.tbl-reg .tbl-reg-body tr:nth-child(2n+1) {
+	background: #c1c1c1;
+}
+
+.tbl-reg .tbl-reg-body tr td:nth-child(5) {
+	/*background: #eee;*/
+}
+
+.dialog .input input {
+	float: right;
+}
+
+.tbl-reg-overall td {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tbl-rw-foot tr td:nth-child(3) {
+	text-align: right;
+}
+.btn-remove-base{
+	background:buttonface !important;
+}
+.btn-remove-user{
+    font-size: 10px;
+    height: 25px;
+    line-height: 12.5px;
+    background:buttonface !important;
+}
+
+.sec-options table td, .sec-options table th {
+    border: medium none !important;
+}
+
+.btn-con {
+	width: 55%;
+}
+
+.tbl-con {
+    background: #eee none repeat scroll 0 0;
+    /*border: 1px solid #c0c0c0;*/
+    padding: 0 0 10px 10px;
+    width: auto;
+}
+
+.tbl-con .btn.btn-success.btn-sm {
+    font-size: 10px;
+    margin-top: 25px;
+}
+
+.tbl-event-dates.tbl-info th, .tbl-event-dates.tbl-info td {
+    border: 1px solid #c1c1c1;
+}
+
+.tbl-event-dates.tbl-info th {
+	background: #ddd;
+}
+
+.blk-course-reg .btn-con button {
+	float: right;
+}
+.section.section-travel-options {
+	/*width: 70%;*/
+}
+
+.section-container {
+	border: 1px solid #c1c1c1;
+	background: #eee;
+	padding: 10px;
+}
+
+.tbl-options input, .tbl-options select, .tbl-addon input, .tbl-addon select {
+	width: 90%;
+}
+
+.tbl-options th {
+	width: 15%;
+}
+
+.tbl-options th:nth-child(1) {
+	width: 30%;
+}
+
+.tbl-options th:nth-child(5), .tbl-options th:nth-child(6) {
+	width: 10%;
+}
+
+.tbl-addon td {
+	width: 15%;
+}
+
+.tbl-addon td:nth-child(1){
+	width: 30%;
+}
+
+.tbl-addon td:nth-child(2){
+	width: 10%;
+}
+
+.tbl-addon td:nth-child(3){
+	width: 20%;
+}
+
+.tbl-addon td:nth-child(5), .tbl-addon td:nth-child(6) {
+	width: 10%;
+}
+
+.tbl-addon td:nth-child(6), .tbl-options td:nth-child(6) {
+	background: #eee;
+}
+
+.article-con .elm:nth-child(1) {
+    width: 150px;
+}
+
+.article-con .elm:nth-child(2), .article-con .elm:nth-child(3), .article-con .elm:nth-child(4) {
+    width: 90px;
+}
+
+.article-con .elm:nth-child(5) {
+	width: 60px;
+}
+
+.article-con .elm:nth-child(1) {
+    width: 150px;
+}
+
+.article-con .elm {
+    margin: 0 5px;
+    height: 25px;
+    font-size: 12px;
+}
+
+.article-con label {
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+
+.art-grp {
+	padding: 5px 0;
+}
+
+.art-addon .elm {
+	font-size: 12px;
+}
+
+.art-addon .input-qty {
+	width: 35px;
+}
+
+.art-addon .input-price {
+	float: right;
+	padding-right: 15px;
+}
+
+.sec-options h6{
+	padding: 20px 5px 0;
+}
+.btn-sm {
+	font-size: 10px;
+}
+
+.sub-total {
+    float: right;
+    font-weight: bold;
+    padding-right: 13px;
+}
+.num-error {
+	border: 1px solid red !important;
+}
+
+.col-1 label {
+	float: left;
+}
+
+.col-2 label:nth-child(1) {
+	float: right;
+} 
+
+.col-2 label:nth-child(2) {
+	float: left;
+}
+
+.col-2::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.con-tvl-total {
+    display: inline-block;
+    float: right;
+    padding-right: calc(10% - -5px);
+    font-size: 14px;
+}
+
+.con-tvl-total .field-row {
+	display: table-row;
+}
+
+.con-tvl-total .field-row span {
+	display: table-cell;
+	padding: 0 10px;
+}
+
+.con-tvl-total .field-row:nth-child(3) {
+	font-weight: bold;
+}
+
+#btnRegAdditional {
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+
+.grid-3::after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.grid-3 .blk * {
+	width: 99%;
+}
+
+.grid-3 .btn, .grid-3 input {
+	height: 30px;
+}
+
+.grid-3 .blk {
+	width: 33.33%;
+	margin-left : 10px; 
+}
+
+.grid-3 .blk-1 { width: calc(70% - 30px); } .grid-3 .blk-2 { width: 10%; } .grid-3 .blk-3 { width: 20%; }
+
+
+.form-grp .btn {
+	display: block;
+	margin: 20px auto 0;
+}
+
+.grid-2 {
+	width: 100%;
+}
+
+.grid-2 .blk-1 {
+	float: left;
+	width: 50%;
+}
+
+.grid {
+	width: 100%;
+}
+
+.grid::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.grid-2 .block {
+	float: left;
+	width: 50%;
+}
+
+.section-confirm {
+	text-align: center;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: calc(50% - 400px);
+	background: #eee;
+	border: 1px solid #c2c2c2;
+	width: 750px;
+}
+
+.grid-status {
+    position: relative;
+}
+
+.img-status {
+    background: rgba(0, 0, 0, 0) url("../img/tick.png") repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+
+.btn-con {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+.section-confirm .text4 {
+    margin: 20px 0;
+}
+
+.section-confirm .btn-con {
+	font-size: 14px;
+}
+
+.status-fail {
+	background: rgba(0, 0, 0, 0) url("../img/fail.png") repeat scroll 0 0 / 100% 100%
+}
+
+/*Price Right ALigned*/
+.option-container td:nth-child(5), .option-container th:nth-child(5) {
+    text-align: right;
+}
+
+.con-tvl-total span:nth-child(2) {
+    text-align: right;
+}
+
+.blk-course-reg td:nth-child(4), .blk-course-reg th:nth-child(4) {
+    text-align: right;
+}
+
+/**Customising Calendar Rows*/
+.fc-row.fc-week {
+	height: auto !important;
+	display: block;
+}
+
+.fc-basic-view .fc-body .fc-row {
+	min-height: 7em !important;
+}
+
+.fc-content-skeleton {
+	position: relative !important;
+}
+
+.fc-scroller.fc-day-grid-container {
+	height: auto !important;
+}
+
+.text-muted .evt-time {
+    
+}
+.text-muted.evt-detail {
+	color:inherit;
+    text-decoration: line-through;
+}
+
+
+/**Course Widget**/
+.alert-message {
+	font-size: 16px;
+}
+
+.widget {
+	padding: 15px;
+}
+
+.widget.wdg-course .wdg-wrapper {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	box-shadow: 4px 5px 9px -4px rgba(0, 0, 0, 0.47);
+	border-radius: 5px;
+}
+
+.wdg-mask {
+	transition: all 0.5s ease;
+}
+
+.wdg-wrapper:hover .wdg-mask {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.wdg-course .caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 10px 10px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-grp-category {
+	padding-bottom: 15px;
+}
+
+/**Course Registration**/
+section.base-info {
+	padding: 25px 0;
+}
+
+section.subtotal-info {
+	padding: 15px 20px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+section.course-registrations {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #2a3d46 0px, #344b56 100%) repeat scroll 0 0;
+	padding: 15px 0;
+}
+
+.caption.reservation-info {
+    border: 2px dotted #95979a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+}
+
+.panel-registration > .panel {
+	position: relative;
+}
+
+.remove-panel {
+	position: absolute;
+	top: -11px;
+	right: -11px;
+	background-color: red;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.custom-bg {
+	background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f7f9fa 0px, #eef2f4 100%) repeat scroll 0 0;
+}
+
+#close_popup{
+	float:right;
+}
+.cu_msg{
+	margin-left:0px !important;
+	float: none !important;
+}
+.blk_view{
+	width:100%;
+	padding:25px;
+	
+}
+.view_image{
+	width:65%;
+}
+#calendar_mini {
+    width: 300px;    
+    font-size: 10px;
+    position: relative;
+}
+#calendar_mini .fc-basic-view .fc-body .fc-row{
+	min-height:4em !important;
+}
+.mini_calendar_div{
+	width:350px;
+	float: left;
+	margin-top: 33px;
+	font-family: Tahoma !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+	/*position:fixed;*/
+}
+.part_details_div{	
+    position: relative;
+}
+#calendar_mini .fc-event{	
+	background-color : #009688 !important;
+}
+#calendar_mini .evt-time, #calendar_mini .fc-title{
+	color: white !important;
+}
+#calendar_mini .fc-allow-mouse-resize{
+	background-color : #65ace4 !important;
+}
+#display_date_div{
+	border: 4px solid #26a69a;
+    padding: 10px 3px;
+    width: 300px;
+    text-align: center;
+    font-size: 15px;    
+    height:70px;   
+}
+.month_day{
+	font-weight:bold;
+	position: relative;	
+}
+.default_text{
+	top:10px;
+}
+.register_new_btn{
+	width:300px;
+}
+.register_new_btn button {
+	margin-top:5px;
+	width:100% !important;
+}
+.caption-text {
+	position: relative;
+	top: 15px;
+}
+.float-left{
+	float:left;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.fa {
+    padding-top: 0px;
+}
+.content-grid{
+	margin: 25px;
+}
+.btn-default{
+	background-color: #fff;
+	border-radius:0px !important;
+}
+.popover-content{
+	color:black;
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    border-radius:0px !important;
+}
+.reviewItem {
+    border-bottom: 1px dotted #eee;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.reviewItem:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.product-review h3,
+.review-from-box h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+}
+
+.reviewlist .media-left {
+    padding-right: 25px;
+}
+
+.reviewlist .media-object {
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+}
+
+.reviewlist .media-heading {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 8px 0 5px;
+    text-transform: uppercase;
+}
+
+.reviewItem span.date {
+    display: block;
+    font-family: "Lato",sans-serif;
+    font-size: 13px;
+}
+
+.reviewlist .media-body p {
+    margin: 10px 0 0;
+}
+
+.review-form .input-field {
+    margin-bottom: 15px;
+}
+
+.review-form .input-field label {
+    display: block;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: normal;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.review-form .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    height: 40px;
+    width: 100%;
+}
+
+.review-form .form-control:focus {
+    border-color: #333;
+}
+
+.review-form textarea.form-control {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.rating-box {
+    line-height: normal;
+}
+.table-custom-striped,.section-blk,.blk-1,.table-condensed{
+	color:black !important;
+}
+
+form#ContactContactUsForm input,form#ContactContactUsForm textarea {
+    float: none !important;
+    width: 100%;
+    margin-left: 0;
+}
+
+.fc-time-grid .fc-content-skeleton,
+.fc-time-grid .fc-bgevent, .fc-time-grid .fc-event
+{
+    position: absolute!important;
+}
+/* DS-3883 CSS Changes */
+.fc-list-empty-wrap2 {
+    text-align: center;
+    /* font-weight: 600; */
+    /* color: red; */
+    font-weight: 600!important;
+    font-size: 24px!important;
+    color: #b4000b !important;
+    margin-top: 30px;}
+
+
+/* DS-4966 CSS Changes Start*/
+
+
+.fc-event-container .fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end {
+    width: auto !important;
+}
+
+.fc-view.fc-agendaWeek-view.fc-agenda-view {overflow: auto;}
+.fc-list-item-title a{color:#000 !important;}
+@media only screen and (max-width: 767px) {
+	.fc-agendaWeek-view .fc-scroller{
+		overflow: hidden scroll;
+		height: auto !important;
+	}
+	.fc-agendaWeek-view table{
+		width: 700px !important;
+	    overflow: auto;
+	    max-width: 100%;
+	}
+	.calendar_primary .sec-calendar .fc-agendaWeek-view{
+		overflow: auto !important;
+        border: 1px solid;
+	}
+	.fc-time-grid-event.fc-v-event.fc-event.fc-start.fc-end
+	{width:auto !important;}
+
+}
+.fc-list-table td,.fc-list-table th{padding:5px 15px !important;}
+p.evt-description {margin-top:5px!important;}
+/*.fc-list-table tr:nth-child(odd){background-color:#888888 !important;}
+.fc-list-table tr:nth-child(even){background-color:#d4d4d4 !important;}*/
+
+
+/* DS-4966 CSS Changes End*/   
